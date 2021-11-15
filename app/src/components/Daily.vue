@@ -56,7 +56,7 @@ export default defineComponent({
 }
 .daily .head {
   width: 100vw;
-  height: 30px;
+  height: 40px;
   padding: 0 10px;
   display: flex;
   flex-direction: row;
@@ -64,8 +64,8 @@ export default defineComponent({
   justify-content: space-between;
   font-size: 12px;
   color: #888;
-  line-height: 30px;
-  border-bottom: 1px solid #ddd;
+  line-height: 40px;
+  border-bottom: 1px solid #eeeeee;
 }
 .daily .item {
   padding: 5px 10px;
@@ -95,12 +95,12 @@ export default defineComponent({
   padding-left: 10px;
   height: 60px;
   line-height: 60px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeeeaa;
 }
 .daily .item .number {
   height: 60px;
   line-height: 60px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eeeeeeaa;
 }
 .daily .item:last-child .name,
 .daily .item:last-child .number {
