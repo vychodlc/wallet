@@ -6,6 +6,12 @@
 6. 
 
 
+bug
+Q: 明明都修改了100vw100vh但还是能滑动
+A: 给 app 加一个 position: fixed 的属性
+
+Q: 字符串空格
+A: 可以使用 v-html，也可以使用 &nbsp;，也可以使用 \u3000
 
 # app
 

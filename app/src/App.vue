@@ -1,12 +1,25 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+    <router-view/>
+    <TabBar />
   </div>
-  <router-view/>
 </template>
-
+<script>
+import TabBar from '@/components/TabBar.vue'
+export default {
+  name: 'Home',
+  components: {
+    TabBar
+  },
+}
+</script>
 <style>
+@import 'assets/css/base.css';
+
 #app {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: var(--color); */
+  position: fixed;
 }
 </style>
